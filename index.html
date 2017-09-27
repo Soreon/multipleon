@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Arithmetique modulaire">
+        <meta name="author" content="Soreon">
+        
+        <title>Multipleon</title>
+        <link rel="stylesheet" href="css/jquery-ui.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+        
+    </head>
+    <body>
+        <canvas id="dat_canvas" width="750" height="750">
+            Votre navigateur semble ne pas supporter les canvas, désolé :/
+        </canvas>
+        <div id="settings">
+            <div>
+                <label>Taille : </label><span id="size_value"></span>
+                <div id="size_slider" class="top10"></div>
+            </div>
+            <div class="top10">
+                <label>Points : </label><span id="point_count"></span>
+                <div id="point_count_slider" class="top10"></div>
+            </div>
+            <div class="top10">
+                <label>Multiple : </label><span id="multiple"></span>
+                <div id="multiple_slider" class="top10"></div>
+            </div>
+            <div class="top10"><a href="https://www.youtube.com/watch?v=-X49VQgi86E">Vidéo explicative par Mickaël Launay</a></div>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+        <script src="js/core.js"></script>
+    </body>
+</html>

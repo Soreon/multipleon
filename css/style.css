@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#dat_canvas,
+#settings {
+    border: 1px solid #bbb;
+}
+
+#settings {
+    display: inline-block;
+    width: 200px;
+    height: 500px;
+    vertical-align: top;
+    font-family: "Roboto";
+    font-weight: 400;
+    padding: 10px;
+}
+
+.top10 {
+    margin-top: 10px;
+}
+
+.ui-slider .ui-slider-handle {
+    width: 8px;
+    margin-left: -4px;
+}
